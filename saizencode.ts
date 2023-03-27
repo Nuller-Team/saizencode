@@ -33,17 +33,17 @@ router
 
     <body class="bg-gray-100 min-h-screen flex items-center justify-center p-3">
 
-        <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+        <div class="bg-white py-40 px-20 rounded-lg shadow-lg w-100">
             <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
                 <p class="font-bold">注意事項</p>
                 <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
             </div>
-            <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
-            <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
+            <h1 class="text-5xl font-bold mb-4">Saizencode🥗</h1>
+            <p class="text-2xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号でメニュー詳細を検索することができます。</p>
             <form method="get" action="/search" class="flex">
                 <input type="text" name="query"
                     class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full"
-                    placeholder="メニュー名またはメニュー番号を入力してください" />
+                    placeholder="検索例）SA02" style="font-size: 16pt;" />
                 <button type="submit"
                     class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">
                     <span class="material-symbols-outlined">
@@ -119,17 +119,17 @@ router
 
     <body class="bg-gray-100 min-h-screen flex items-center justify-center p-3">
 
-        <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+        <div class="bg-white py-40 px-20 rounded-lg shadow-lg w-100">
             <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
                 <p class="font-bold">注意事項</p>
                 <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
             </div>
-            <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
-            <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
+            <h1 class="text-5xl font-bold mb-4">Saizencode🥗</h1>
+            <p class="text-2xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号でメニュー詳細を検索することができます。</p>
             <form method="get" action="/search" class="flex">
                 <input type="text" name="query"
                     class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full"
-                    placeholder="メニュー名またはメニュー番号を入力してください" />
+                    placeholder="検索例）SA02" style="font-size: 16pt;" />
                 <button type="submit"
                     class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">
                     <span class="material-symbols-outlined">
