@@ -21,6 +21,8 @@ router
         <meta charset="utf-8" />
         <title>【Nuller-Apps】Saizencode</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Saizencode" />
@@ -28,26 +30,32 @@ router
         <meta property="og:description" content="このアプリはサイゼリヤのメニュー番号からメニュー名を検索できます。また、サイゼリヤのメニュー名からメニュー番号に変換できます。なおこのツールは非公式のため、
         実際の情報と異なる場合があります。" />
     </head>
-    
+
     <body class="bg-gray-100 min-h-screen flex items-center justify-center p-3">
 
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-        <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
-            <p class="font-bold">注意事項</p>
-            <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
+        <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+            <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
+                <p class="font-bold">注意事項</p>
+                <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
+            </div>
+            <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
+            <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
+            <form method="get" action="/search" class="flex">
+                <input type="text" name="query"
+                    class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full"
+                    placeholder="メニュー名またはメニュー番号を入力してください" />
+                <button type="submit"
+                    class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
+            </form>
+            <div id="result" class="mt-4">${result}</div>
         </div>
-        <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
-        <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
-        <form method="get" action="/search" class="flex">
-        <input type="text" name="query" class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full" placeholder="メニュー名またはメニュー番号を入力してください" />
-        <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">🔍
-      </svg></button>
-        </form>
-        <div id="result" class="mt-4">${result}</div>
-    </div>
-</body>
+    </body>
 
-</html>
+    </html>
     `;
   })
   .get("/search", (ctx) => {
@@ -99,6 +107,8 @@ router
         <meta charset="utf-8" />
         <title>【Nuller-Apps】Saizencode</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Saizencode" />
@@ -106,26 +116,33 @@ router
         <meta property="og:description" content="このアプリはサイゼリヤのメニュー番号からメニュー名を検索できます。また、サイゼリヤのメニュー名からメニュー番号に変換できます。なおこのツールは非公式のため、
         実際の情報と異なる場合があります。" />
     </head>
-    
+
     <body class="bg-gray-100 min-h-screen flex items-center justify-center p-3">
 
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-        <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
-            <p class="font-bold">注意事項</p>
-            <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
+        <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+            <div class="bg-yellow-100 my-3 border-l-4 border-yellow-400 p-4" role="alert">
+                <p class="font-bold">注意事項</p>
+                <p>このアプリは非公式のものです。そのため、情報や価格については正確でない可能性があります。あらかじめご了承ください。</p>
+            </div>
+            <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
+            <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
+            <form method="get" action="/search" class="flex">
+                <input type="text" name="query"
+                    class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full"
+                    placeholder="メニュー名またはメニュー番号を入力してください" />
+                <button type="submit"
+                    class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
+            </form>
+            <div id="result" class="mt-4">${result}</div>
         </div>
-        <h1 class="text-2xl font-bold mb-4">Saizencode🥗</h1>
-        <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
-        <form method="get" action="/search" class="flex">
-        <input type="text" name="query" class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full" placeholder="メニュー名またはメニュー番号を入力してください" />
-        <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">🔍
-      </button>
-        </form>
-        <div id="result" class="mt-4">${result}</div>
-    </div>
-</body>
+    </body>
 
-</html>
+    </html>
+
     `;
   })
 server.use(router.routes());
