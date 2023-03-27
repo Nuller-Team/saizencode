@@ -27,8 +27,11 @@ router
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Saizencode" />
         <meta property="og:site_name" content="Nuller-Apps" />
-        <meta property="og:description" content="このアプリはサイゼリヤのメニュー番号からメニュー名を検索できます。また、サイゼリヤのメニュー名からメニュー番号に変換できます。なおこのツールは非公式のため、
-        実際の情報と異なる場合があります。" />
+        <meta property="og:description" content="このアプリは、サイゼリヤのメニュー番号を手軽に検索できる便利なツールです。メニュー番号からは、直接その商品を注文することができます。また、メニュー名からメニュー番号に変換することもできます。ただし、このツールは非公式のものであり、実際の情報と異なる場合があることに注意してください。" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://saizencode.deno.dev/ocg/Saizencode.png" />
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
     </head>
 
     <body class="bg-gray-100 min-h-screen flex items-center justify-center p-3">
@@ -86,7 +89,7 @@ router
             <tr>
               <td class="border px-4 py-2">${menu.id}</td>
               <td class="border px-4 py-2">${menu.name}</td>
-              <td class="border px-4 py-2">${menu.price}</td>
+              <td class="border px-4 py-2">${menu.price}円</td>
             </tr>
           `;
         });
