@@ -1,8 +1,9 @@
-
 import { serve } from "https://deno.land/std/http/server.ts";
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import { parse } from "https://deno.land/std/flags/mod.ts";
 import * as path from "https://deno.land/std/path/mod.ts";
+
+import menuData from "./menu.json" assert { type: "json" };
 
 const args = parse(Deno.args);
 const port = parseInt(args.port ?? "8000");
@@ -10,21 +11,6 @@ const port = parseInt(args.port ?? "8000");
 const server = new Application();
 
 const router = new Router();
-
-const menuFilePath = path.join(Deno.cwd(), "menu.csv");
-
-const readMenuFile = () => {
-  const menuFile = Deno.readTextFileSync(menuFilePath);
-  const lines = menuFile.split("\n");
-  const menuList = [];
-
-  for (const line of lines) {
-    const [id, name, price] = line.split(",");
-    menuList.push({ id, name, price });
-  }
-
-  return menuList;
-};
 
 router
   .get("/", (ctx) => {
@@ -42,7 +28,7 @@ router
             <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
             <form method="get" action="/search" class="flex">
             <input type="text" name="query" class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full" placeholder="メニュー名またはメニュー番号を入力してください" />
-            <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700 w-auto">検索</button>
+            <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">検索</button>
             </form>
             <div id="result" class="mt-4"></div>
           </div>
@@ -56,8 +42,7 @@ router
 
     if (query) {
       const regex = new RegExp(query, "i");
-      const menuList = readMenuFile();
-      const filteredMenuList = menuList.filter(
+      const filteredMenuList = menuData.filter(
         (menu) => regex.test(menu.name) || regex.test(menu.id)
       );
 
@@ -79,7 +64,7 @@ router
             <tr>
               <td class="border px-4 py-2">${menu.id}</td>
               <td class="border px-4 py-2">${menu.name}</td>
-              <td class="border px-4 py-2">${menu.price}円</td>
+              <td class="border px-4 py-2">${menu.price}</td>
             </tr>
           `;
         });
@@ -107,7 +92,7 @@ router
         <p class="text-1xl font-bold mb-4">サイゼリヤのメニュー名やメニュー番号から検索することができます。</p>
         <form method="get" action="/search" class="flex">
         <input type="text" name="query" class="rounded-l-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white p-2 w-full" placeholder="メニュー名またはメニュー番号を入力してください" />
-        <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700 w-auto">検索</button>
+        <button type="submit" class="px-4 bg-blue-500 text-white font-semibold rounded-r-lg border-t border-b border-r hover:bg-blue-700">検索</button>
         </form>
             <div id="result" class="mt-4">${result}</div>
           </div>
