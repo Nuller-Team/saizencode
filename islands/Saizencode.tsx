@@ -4,6 +4,8 @@ interface MenuType {
   id: string;
   name: string;
   price: number;
+  emoji: string;
+
 }
 
 interface SaizencodeTypes {
@@ -19,7 +21,7 @@ export default function Saizencode({ menus }: SaizencodeTypes) {
     } else {
       const regex = new RegExp(searchMenu, "i");
       const filteredMenus = menus.filter(
-        (menu) => regex.test(menu.name) || regex.test(menu.id)
+        (menu) => regex.test(menu.name) || regex.test(menu.id) || regex.test(menu.emoji) || regex.test(menu.price)
       );
       setMenu(filteredMenus);
     }
@@ -66,7 +68,7 @@ export default function Saizencode({ menus }: SaizencodeTypes) {
         >
           <div class="flex items-center">
             <div class="w-12 h-12 bg-gray-200 rounded-full flex justify-center items-center text-white font-bold text-3xl mr-4">
-              {}
+              {menuItem.emoji}
             </div>
             <div>
               <p class="text-gray-500 text-sm">{menuItem.id}</p>

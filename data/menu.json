@@ -2,516 +2,619 @@
     {
         "id": "SA02",
         "name": "小エビのサラダ",
-        "price": 350
+        "price": 350,
+        "emoji": "🥗"
     },
     {
         "id": "SA03",
         "name": "チキンのサラダ",
-        "price": 350
+        "price": 350,
+        "emoji": "🥗"
     },
     {
         "id": "SA05",
         "name": "わかめのサラダ",
-        "price": 350
+        "price": 350,
+        "emoji": "🥗"
     },
     {
         "id": "SA08",
         "name": "グリーンサラダ",
-        "price": 350
+        "price": 350,
+        "emoji": "🥗"
     },
     {
         "id": "SA07",
         "name": "モッツァレラサラダ",
-        "price": 400
+        "price": 400,
+        "emoji": "🥗"
     },
     {
         "id": "303",
         "name": "サイゼリヤドレッシング",
-        "price": 500
+        "price": 500,
+        "emoji": "🍅"
     },
     {
         "id": "304",
         "name": "エクストラ・バージン・オリーブオイル(500ml)",
-        "price": 850
+        "price": 850,
+        "emoji": "🫒"
     },
     {
         "id": "SU07",
         "name": "たまねぎのズッパ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍲"
     },
     {
         "id": "SU05",
         "name": "田舎風ミニストローネ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍲"
     },
     {
         "id": "SU01",
         "name": "コーンクリームスープ",
-        "price": 150
+        "price": 150,
+        "emoji": "🍲"
     },
     {
         "id": "SU03",
         "name": "冷たいパンプキンスープ",
-        "price": 150
+        "price": 150,
+        "emoji": "🍲"
     },
     {
         "id": "RP09",
         "name": "ガーリックトースト",
-        "price": 200
+        "price": 200,
+        "emoji": "🍞"
     },
     {
         "id": "RP08",
         "name": "ミニフィセル",
-        "price": 150
+        "price": 150,
+        "emoji": "🍞"
     },
     {
         "id": "RP05",
         "name": "セットプチフォッカ",
-        "price": 100
+        "price": 100,
+        "emoji": "🍞"
     },
     {
         "id": "RP06",
         "name": "プチフォッカ",
-        "price": 150
+        "price": 150,
+        "emoji": "🍞"
     },
     {
         "id": "RP04",
         "name": "シナモンプチフォッカ",
-        "price": 200
+        "price": 200,
+        "emoji": "🍞"
     },
     {
         "id": "DB01",
         "name": "ドリンクバー（セット）",
-        "price": 200
+        "price": 200,
+        "emoji": "🥤"
     },
     {
         "id": "DB02",
         "name": "ドリンクバー（キッズ）",
-        "price": 100
+        "price": 100,
+        "emoji": "🥤"
     },
     {
         "id": "DB03",
         "name": "ドリンクバー（単品）",
-        "price": 300
+        "price": 300,
+        "emoji": "🥤"
     },
     {
         "id": "AA25",
         "name": "柔らか青豆とペコリ―ノチーズの温サラダ",
-        "price": 200
+        "price": 200,
+        "emoji": "🥗"
     },
     {
         "id": "AA12",
         "name": "ほうれん草のくたくた",
-        "price": 300
+        "price": 300,
+        "emoji": "🥬"
     },
     {
         "id": "AA09",
         "name": "アスパラガスの温サラダ",
-        "price": 300
+        "price": 300,
+        "emoji": "🥗"
     },
     {
         "id": "AA19",
         "name": "ブロッコリーのくたくた",
-        "price": 300
+        "price": 300,
+        "emoji": "🥦"
     },
     {
         "id": "AA01",
         "name": "辛味チキン",
-        "price": 300
+        "price": 300,
+        "emoji": "🍗"
     },
     {
         "id": "AA15",
         "name": "カリッとポテト",
-        "price": 250
+        "price": 250,
+        "emoji": "🍟"
     },
     {
         "id": "AA20",
         "name": "バッファロー・モッツァレラ",
-        "price": 300
+        "price": 300,
+        "emoji": "🧀"
     },
     {
         "id": "AA26",
         "name": "イタリア風もつ煮込み",
-        "price": 350
+        "price": 350,
+        "emoji": "🍲"
     },
     {
         "id": "AA05",
         "name": "エスカルゴのオーブン焼き",
-        "price": 400
+        "price": 400,
+        "emoji": "🍴"
     },
     {
         "id": "AA02",
         "name": "アロスティチー二",
-        "price": 400
+        "price": 400,
+        "emoji": "🍴"
     },
     {
         "id": "AA52",
         "name": "アロスティチー二(Wサイズ)",
-        "price": 800
+        "price": 800,
+        "emoji": "🍴"
     },
     {
         "id": "AA07",
         "name": "チョリソー",
-        "price": 400
+        "price": 400,
+        "emoji": "🌭"
     },
     {
         "id": "AA10",
         "name": "ムール貝のガーリック焼き",
-        "price": 400
+        "price": 400,
+        "emoji": "🧄"
     },
     {
         "id": "AA70",
         "name": "バッファロー・モッツァレラ(Wサイズ)",
-        "price": 600
+        "price": 600,
+        "emoji": "🧀"
     },
     {
         "id": "AA04",
         "name": "ポップコーンシュリンプ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍤"
     },
     {
         "id": "AA13",
         "name": "爽やかにんじんサラダ",
-        "price": 200
+        "price": 200,
+        "emoji": "🥕"
     },
     {
         "id": "TP02",
         "name": "ペコリーノ・ロマーノ",
-        "price": 100
+        "price": 100,
+        "emoji": "🧀"
     },
     {
         "id": "TP05",
         "name": "オリーブとアンチョビペースト",
-        "price": 100
+        "price": 100,
+        "emoji": "🫒"
     },
     {
         "id": "TP06",
         "name": "やみつきスパイス",
-        "price": 50
+        "price": 50,
+        "emoji": "🧂"
     },
     {
         "id": "BR01",
         "name": "生ビールキリン一番搾り(ジョッキ)",
-        "price": 400
+        "price": 400,
+        "emoji": "🍺"
     },
     {
         "id": "BR02",
         "name": "生ビールキリン一番搾り(グラスビール)",
-        "price": 300
+        "price": 300,
+        "emoji": "🍺"
     },
     {
         "id": "BR03",
         "name": "ノンアルコール(サントリーオールフリー)",
-        "price": 250
+        "price": 250,
+        "emoji": "🍺"
     },
     {
         "id": "BR04",
         "name": "サワー(キリン氷結シチリア産レモン)",
-        "price": 350
+        "price": 350,
+        "emoji": "🍺"
     },
     {
         "id": "BR05",
         "name": "ラコンブリッコラ(45ml)",
-        "price": 300
+        "price": 300,
+        "emoji": "🍷"
     },
     {
         "id": "WN01",
         "name": "フレッシュワイン(グラスワイン)(赤)",
-        "price": 100
+        "price": 100,
+        "emoji": "🍷"
     },
     {
         "id": "WN02",
         "name": "フレッシュワイン(グラスワイン)(白)",
-        "price": 100
+        "price": 100,
+        "emoji": "🍷"
     },
     {
         "id": "WN03",
         "name": "フレッシュワイン(デカンタ)(赤)(250ml)",
-        "price": 200
+        "price": 200,
+        "emoji": "🍷"
     },
     {
         "id": "WN04",
         "name": "フレッシュワイン(デカンタ)(白)(250ml)",
-        "price": 200
+        "price": 200,
+        "emoji": "🍷"
     },
     {
         "id": "WN05",
         "name": "フレッシュワイン(デカンタ)(赤)(500ml)",
-        "price": 400
+        "price": 400,
+        "emoji": "🍷"
     },
     {
         "id": "WN06",
         "name": "フレッシュワイン(デカンタ)(白)(500ml)",
-        "price": 400
+        "price": 400,
+        "emoji": "🍷"
     },
     {
         "id": "WN13",
         "name": "ドンラファエロ",
-        "price": 1100
+        "price": 1100,
+        "emoji": "🍷"
     },
     {
         "id": "WN12",
         "name": "ランブルスコ",
-        "price": 1100
+        "price": 1100,
+        "emoji": "🍷"
     },
     {
         "id": "WN14",
         "name": "ランブルスコセッコ",
-        "price": 1100
+        "price": 1100,
+        "emoji": "🍷"
     },
     {
         "id": "WN15",
         "name": "ベルデッキオ【辛口・中】",
-        "price": 1100
+        "price": 1100,
+        "emoji": "🍷"
     },
     {
         "id": "WN16",
         "name": "キャンティ【辛口・やや重い】",
-        "price": 1100
+        "price": 1100,
+        "emoji": "🍷"
     },
     {
         "id": "WN19",
         "name": "キャンティルフィナ リゼルバ【辛口・重い】",
-        "price": 2200
+        "price": 2200,
+        "emoji": "🍷"
     },
     {
         "id": "DG01",
         "name": "ミラノ風ドリア",
-        "price": 300
+        "price": 300,
+        "emoji": "🍲"
     },
     {
         "id": "DG02",
         "name": "チーズたっぷりミラノ風ドリア",
-        "price": 300
+        "price": 300,
+        "emoji": "🍲"
     },
     {
         "id": "DG07",
         "name": "エビクリームグラタン",
-        "price": 400
+        "price": 400,
+        "emoji": "🦐"
     },
     {
         "id": "PZ01",
         "name": "マルゲリータピザ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍕"
     },
     {
         "id": "PZ51",
         "name": "マルゲリータピザ(Wチーズ)",
-        "price": 500
+        "price": 500,
+        "emoji": "🍕"
     },
     {
         "id": "PZ02",
         "name": "バッファロー・モッツァレラのピザ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍕"
     },
     {
         "id": "PZ52",
         "name": "バッファロー・モッツァレラのピザ(Wチーズ)",
-        "price": 600
+        "price": 600,
+        "emoji": "🍕"
     },
     {
         "id": "PZ07",
         "name": "オリーブアンチョビのマルゲリータピザ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍕"
     },
     {
         "id": "PZ57",
         "name": "オリーブアンチョビのマルゲリータピザ(Wチーズ)",
-        "price": 600
+        "price": 600,
+        "emoji": "🍕"
     },
     {
         "id": "PZ08",
         "name": "ソーセージピザ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍕"
     },
     {
         "id": "PZ58",
         "name": "ソーセージピザ(Wチーズ)",
-        "price": 500
+        "price": 500,
+        "emoji": "🍕"
     },
     {
         "id": "PZ06",
         "name": "たっぷりコーンのピザ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍕"
     },
     {
         "id": "PZ56",
         "name": "たっぷりコーンのピザ(Wチーズ)",
-        "price": 500
+        "price": 500,
+        "emoji": "🍕"
     },
     {
         "id": "PA01",
         "name": "タラコソースシシリー風",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA07",
         "name": "スパゲッティポモドーロ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA23",
         "name": "たっぷりペコリーノチーズのポモドーロ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍝"
     },
     {
         "id": "PA02",
         "name": "ミートソースボロニア風",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA12",
         "name": "半熟卵のミートソースボロニア風",
-        "price": 450
+        "price": 450,
+        "emoji": "🍝"
     },
     {
         "id": "PA25",
         "name": "ペンネアラビアータ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA14",
         "name": "エビとアスパラガスーのオーロラソース",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA19",
         "name": "スパゲッティアラビアータ",
-        "price": 400
+        "price": 400,
+        "emoji": "🍝"
     },
     {
         "id": "PA03",
         "name": "ペペロンチーノ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍝"
     },
     {
         "id": "PA17",
         "name": "半熟卵のペペロンチーノ",
-        "price": 350
+        "price": 350,
+        "emoji": "🍝"
     },
     {
         "id": "PA05",
         "name": "カルボナーラ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍝"
     },
     {
         "id": "PA18",
         "name": "たっぷりペコリーノチーズのカルボナーラ",
-        "price": 600
+        "price": 600,
+        "emoji": "🍝"
     },
     {
         "id": "PA11",
         "name": "イカの墨入りスパゲッティ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍝"
     },
     {
         "id": "PA13",
         "name": "ラムのラグソース（ペンネ）",
-        "price": 600
+        "price": 600,
+        "emoji": "🍝"
     },
     {
         "id": "PA15",
         "name": "ラムのラグソース（スパゲッティ）",
-        "price": 600
+        "price": 600,
+        "emoji": "🍝"
     },
     {
         "id": "MT01",
         "name": "ハンバーグステーキ",
-        "price": 400
+        "price": 400,
+        "emoji": "🥩"
     },
     {
         "id": "MT07",
         "name": "ディアボラ風ハンバーグ",
-        "price": 500
+        "price": 500,
+        "emoji": "🥩"
     },
     {
         "id": "MT03",
         "name": "イタリアンハンバーグ",
-        "price": 500
+        "price": 500,
+        "emoji": "🥩"
     },
     {
         "id": "MT15",
         "name": "チョリソーとハンバーグの盛り合わせ",
-        "price": 550
+        "price": 550,
+        "emoji": "🥩"
     },
     {
         "id": "RP01",
         "name": "ライス",
-        "price": 150
+        "price": 150,
+        "emoji": "🍚"
     },
     {
         "id": "RP02",
         "name": "ラージライス",
-        "price": 200
+        "price": 200,
+        "emoji": "🍚"
     },
     {
         "id": "RP03",
         "name": "スモールライス",
-        "price": 100
+        "price": 100,
+        "emoji": "🍚"
     },
     {
         "id": "MT02",
         "name": "若鶏のディアボラ風",
-        "price": 500
+        "price": 500,
+        "emoji": "🥩"
     },
     {
         "id": "MT04",
         "name": "柔らかチキンのチーズ焼き",
-        "price": 500
+        "price": 500,
+        "emoji": "🥩"
     },
     {
         "id": "MT09",
         "name": "リブステーキ",
-        "price": 1000
+        "price": 1000,
+        "emoji": "🥩"
     },
     {
         "id": "DE05",
         "name": "イタリアンジェラート",
-        "price": 250
+        "price": 250,
+        "emoji": "🍨"
     },
     {
         "id": "DE06",
         "name": "イタリアンプリン",
-        "price": 250
+        "price": 250,
+        "emoji": "🍨"
     },
     {
         "id": "DE15",
         "name": "コーヒーゼリー＆イタリアンジェラート",
-        "price": 350
+        "price": 350,
+        "emoji": "🍨"
     },
     {
         "id": "DE04",
         "name": "ジェラート&シナモンプチフォッカ",
-        "price": 450
+        "price": 450,
+        "emoji": "🍨"
     },
     {
         "id": "DE12",
         "name": "プリンとティラミスクラシコの盛り合わせ",
-        "price": 500
+        "price": 500,
+        "emoji": "🍨"
     },
     {
         "id": "DE01",
         "name": "ティラミスクラシコ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍨"
     },
     {
         "id": "DE07",
         "name": "チョコレートケーキ",
-        "price": 300
+        "price": 300,
+        "emoji": "🍨"
     },
     {
         "id": "DE17",
         "name": "フレンチトースト",
-        "price": 400
+        "price": 400,
+        "emoji": "🍨"
     },
     {
         "id": "DE11",
         "name": "シチリア産ピスタチオのジェラート",
-        "price": 350
+        "price": 350,
+        "emoji": "🍨"
     },
     {
         "id": "DE13",
         "name": "トリフアイスクリーム",
-        "price": 350
+        "price": 350,
+        "emoji": "🍨"
     }
 ]
